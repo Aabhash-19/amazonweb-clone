@@ -1,0 +1,1845 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* amazon logo  */
+
+.nav_logo {
+    width: 114px;
+    height: 60px;
+}
+
+.amazon_logo {
+    background-image: url(../img/amazon_logo.png);
+    width: 114px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 0.1px;
+}
+
+/* deliver to India  */
+
+.deliverIndia {
+    width: 90px;
+    height: 60px;
+    padding: 10px 2px 5px 7px ;
+}
+
+.add-first {
+    color: #ccc;
+    font-size: .85rem;
+    margin-left: 15px;
+}
+
+.address_icon {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.add-second {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+/* search bar  */
+
+.navsearch {
+    display: flex;
+    width: 920px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #0f1111;
+}
+
+.drop {
+    border: none;
+    width: 51.19px;
+    background-color: #e6e6e6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+}
+
+.searchbar {
+    width: 90%;
+    border: none;
+    font-size: 1rem;
+    padding-left: 10px ;
+}
+
+
+.search_icon {
+    display: flex;
+    color: #0f1111;
+    width: 45px;
+    height: 40px;
+    background-color: #febd68;
+    font-size: 1.5rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hello sign in*/
+
+.nav_signin {
+    color: #fff;
+    padding-top: 15px;
+}
+
+.nav_small {
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.nav_big {
+    font-size: .95rem;
+    font-weight: 700;
+}
+
+/* Returns and orders  */
+
+.nav_returns {
+    color: #fff;
+    padding-top: 15px;
+}
+
+.nav_small2 {
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.nav_big2 {
+    font-size: .95rem;
+    font-weight: 700;
+}
+
+/* cart */
+
+.cart {
+    color: #fff;
+    display: flex;
+    padding-top: 20px;
+}
+
+.cart_icon {
+    margin-right: 3px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.cart p {
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+
+/* panel */
+
+.panel {
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+}
+
+.all {
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    width: 59px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    font-weight: 700px;
+}
+
+.all p {
+    font-size: .95rem;
+    font-weight: 700;
+}
+
+.deals {
+    color: #fff;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .95rem;
+}
+.registry {
+    color: #fff;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .95rem;
+}
+.primeVideo {
+    color: #fff;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .95rem;
+}
+.giftCards {
+    color: #fff;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .95rem;
+}
+.customerService {
+    color: #fff;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .95rem;
+}
+.sell {
+    color: #fff;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .95rem;
+}
+
+/* image section */
+
+.bgimage {
+    background-image: url(../img/bgimage.jpg);
+    height: 377px;
+    /* margin-left: 10px; */
+    /* width: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.msg {
+    background-color: #fff;
+    width: 85%;
+    height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: .95rem;
+}
+
+.msg a {
+    text-decoration: none;
+    color: #007185;
+    font-weight: 550;
+}
+
+/* box section */
+
+.box {
+    /* border: 2px solid #000; */
+    height: 420px;
+    font-size: 0.82rem;
+    color: #0f1111;
+    margin-top: 5px;
+    padding: 20px 0px 0px 15px;
+    width: 24.7%;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.box_content {
+    /* border: 2px solid #000; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fdd04f;
+    /* border-top-left-radius: 2px; */
+    /* border-top-right-radius: 2px; */
+    height: 424px;
+}
+
+.box_content h2 {
+    margin-bottom: 15px;
+}
+
+.row1 {
+    display: flex;
+}
+
+.headsets {
+    background-image: url(../img/headsets.jpg);
+    height: 100px;
+    width: 130px;
+    background-size: cover;
+}
+
+.headsets p {
+    padding-top: 107px;
+    font-weight: 550;
+}
+
+.keyboards {
+    background-image: url(..//img/keyboards.jpg) ;
+    height: 100px;
+    width: 190px;
+    background-size: cover;
+    margin: 0px 0px 0px 15px;
+}
+
+.keyboards p {
+    padding-top: 107px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.row2 {
+    display: flex;
+}
+
+.computerMice {
+    background-image: url(../img/computerMice.jpg);
+    height: 105px;
+    width: 135px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+
+
+.computerMice p {
+    padding-top: 110px;
+    font-weight: 550;
+}
+
+.chairs {
+    background-image: url(..//img/chairs.jpg) ;
+    height: 100px;
+    width: 190px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.chairs p {
+    padding-top: 110px;
+    font-weight: 550;
+    margin-left: 30px;
+}
+
+.last2 {
+    color: #007185;
+    font-weight: 550;
+    margin-top: 52px;
+}
+
+.jeans {
+    background-image: url(..//img/jeans.jpg);
+    height: 100px;
+    width: 167px;
+    background-size: cover;
+}
+
+.jeans p {
+    padding-top: 107px;
+    font-weight: 550;
+}
+
+.tops {
+    background-image: url(..//img/tops.jpg) ;
+    height: 100px;
+    width: 165px;
+    background-size: cover;
+    margin: 0px 0px 0px 15px;
+}
+
+.tops p {
+    padding-top: 107px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.dresses {
+    background-image: url(../img/dresses.jpg);
+    height: 100px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.dresses p {
+    padding-top: 110px;
+    font-weight: 550;
+}
+
+.shoes {
+    background-image: url(..//img/shoes.jpg) ;
+    height: 100px;
+    width: 165px;
+    background-size: cover;
+    margin: 70px 0px 0px 15px;
+    
+}
+
+.shoes p {
+    padding-top: 110px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.last {
+    color: #007185;
+    font-weight: 550;
+    margin-top: 55px;
+}
+
+.cleaningTools {
+    background-image: url(..//img/cleaningTools.jpg);
+    height: 100px;
+    width: 167px;
+    background-size: cover;
+}
+
+.cleaningTools p {
+    padding-top: 107px;
+    font-weight: 550;
+}
+
+.homeStorage {
+    background-image: url(..//img/homeStorage.jpg) ;
+    height: 100px;
+    width: 165px;
+    background-size: cover;
+    margin: 0px 0px 0px 15px;
+}
+
+.homeStorage p {
+    padding-top: 107px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.homeDecor {
+    background-image: url(../img/homeDecor.jpg);
+    height: 100px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.homeDecor p {
+    padding-top: 110px;
+    font-weight: 550;
+}
+
+.bedding {
+    background-image: url(..//img/bedding.jpg) ;
+    height: 100px;
+    width: 165px;
+    background-size: cover;
+    margin: 70px 0px 0px 15px;
+    
+}
+
+.bedding p {
+    padding-top: 110px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.last {
+    color: #007185;
+    font-weight: 550;
+    margin-top: 55px;
+}
+
+.gameOnimg {
+    background-image: url(../img/ps.jpg);
+    height: 305px;
+    width: 345px;
+    background-size: cover;
+}
+
+.last4 {
+    color: #007185;
+    font-weight: 550;
+    margin-top: 20px;
+}
+
+
+
+
+.row1 {
+    display: flex;
+}
+
+.cooker {
+    background-image: url(../img/cooker.jpg);
+    height: 145px;
+    width: 340px;
+    background-size: cover;
+}
+
+.cooker p {
+    padding-top: 147px;
+    font-weight: 550;
+}
+
+
+
+.row2 {
+    display: flex;
+}
+
+.coffee {
+    background-image: url(../img/coffee.jpg) ;
+    height: 100px;
+    width: 150px;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.coffee p {
+    padding-top: 107px;
+    font-weight: 550;
+    margin-left: 27px;
+}
+
+.potsAndpans {
+    background-image: url(../img/potsAndpans.jpg);
+    height: 100px;
+    width: 125px;
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+
+
+.potsAndpans p {
+    padding-top: 107px;
+    font-weight: 550;
+}
+
+.kettles {
+    background-image: url(..//img/kettles.jpg);
+    height: 100px;
+    width: 125px;
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.kettles p {
+    padding-top: 107px;
+    font-weight: 550;
+    margin-left: 20px;
+}
+
+.last2 {
+    color: #007185;
+    font-weight: 550;
+    margin-top: 52px;
+}
+
+.kitchenAndDining {
+    background-image: url(..//img/kitchenAndDining.jpg);
+    height: 100px;
+    width: 167px;
+    background-size: cover;
+}
+
+.kitchenAndDining p {
+    padding-top: 107px;
+    font-weight: 550;
+}
+
+.homeImprovement {
+    background-image: url(..//img/homeImprovement.jpg) ;
+    height: 100px;
+    width: 165px;
+    background-size: cover;
+    margin: 0px 0px 0px 15px;
+}
+
+.homeImprovement p {
+    padding-top: 107px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.decor {
+    background-image: url(../img/decor.jpg);
+    height: 100px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.decor p {
+    padding-top: 110px;
+    font-weight: 550;
+}
+
+.beddingAndbath {
+    background-image: url(..//img/beddingAndbath.jpg) ;
+    height: 100px;
+    width: 165px;
+    background-size: cover;
+    margin: 70px 0px 0px 15px;
+    
+}
+
+.beddingAndbath p {
+    padding-top: 110px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.last {
+    color: #007185;
+    font-weight: 550;
+    margin-top: 55px;
+}
+
+.dining {
+    background-image: url(..//img/dining.jpg);
+    height: 100px;
+    width: 167px;
+    background-size: cover;
+}
+
+.dining p {
+    padding-top: 107px;
+    font-weight: 550;
+}
+
+.home2 {
+    background-image: url(..//img/home.jpg) ;
+    height: 100px;
+    width: 165px;
+    background-size: cover;
+    margin: 0px 0px 0px 15px;
+}
+
+.home2 p {
+    padding-top: 107px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.kitchen {
+    background-image: url(../img/kitchen.jpg);
+    height: 100px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.kitchen p {
+    padding-top: 110px;
+    font-weight: 550;
+}
+
+.healthAndbeauty {
+    background-image: url(..//img/healthAndbeauty.jpg) ;
+    height: 100px;
+    width: 165px;
+    background-size: cover;
+    margin: 70px 0px 0px 15px;
+    
+}
+
+.healthAndbeauty p {
+    padding-top: 108px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+
+.giftsFordad {
+    background-image: url(../img/giftsFordad.jpg);
+    height: 305px;
+    width: 345px;
+    background-size: cover;
+}
+
+.last4 {
+    color: #007185;
+    font-weight: 550;
+    margin-top: 20px;
+}
+
+.top {
+    background-color: #fdd04f;
+    height: 290px;
+    padding-top: 5px;
+}
+
+.topPicks {
+    background-color: #fff;
+    height: 290px;
+    width: 99.6%;
+    border-radius: 2px;
+    margin-left: 3px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.topImages {
+    padding-top: 10px;
+    display: flex;
+}
+
+.watch {
+    background-image: url(../img/watch.jpg);
+    height: 200px;
+    width: 150px;
+    background-size: cover;
+}
+
+.microwave {
+    background-image: url(../img/microwave.jpg);
+    height: 210px;
+    width: 280px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.sewingMachine {
+    background-image: url(../img/sewingMachine.jpg);
+    height: 210px;
+    width: 330px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.vacuum {
+    background-image: url(../img/vacuum.jpg);
+    height: 210px;
+    width: 195px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.vacuum2 {
+    background-image: url(../img/vacuum2.jpg);
+    height: 215px;
+    width: 175px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.watch2 {
+    background-image: url(../img/watch2.jpg);
+    height: 200px;
+    width: 120px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.moisturizer {
+    background-image: url(../img/moisturizer.jpg);
+    height: 210px;
+    width: 180px;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.top2 {
+    background-color: #fdd04f;
+    height: 290px;
+    padding-top: 5px;
+}
+
+.topPicks {
+    background-color: #fff;
+    height: 290px;
+    width: 99.6%;
+    border-radius: 2px;
+    margin-left: 3px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.topImages2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.minecraft {
+    background-image: url(../img/minecraft.jpg);
+    height: 200px;
+    width: 150px;
+    background-size: cover;
+}
+
+.indianaJones {
+    background-image: url(../img/indianaJones.jpg);
+    height: 200px;
+    width: 145px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.helloKitty {
+    background-image: url(../img/helloKitty.jpg);
+    height: 200px;
+    width: 122px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.roblox {
+    background-image: url(../img/roblox.jpg);
+    height: 200px;
+    width: 128px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.roblox2 {
+    background-image: url(../img/roblox2.jpg);
+    height: 200px;
+    width: 128px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.marioKart {
+    background-image: url(../img/marioKart.jpg);
+    height: 200px;
+    width: 125px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.xbox {
+    background-image: url(../img/xbox.jpg);
+    height: 200px;
+    width: 140px;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.supersmashbros {
+    background-image: url(../img/superSmashBros.jpg);
+    height: 200px;
+    width: 125px;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.zelda {
+    background-image: url(../img/zelda.jpg);
+    height: 200px;
+    width: 127px;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.row1 {
+    display: flex;
+}
+
+.rideon {
+    background-image: url(../img/rideon.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 1px;
+}
+
+.rideon p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+
+
+.row2 {
+    display: flex;
+}
+
+.buildingAndConstruction {
+    background-image: url(../img/buildingandconstruction.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin-top: 1px;
+    margin-left: 15px;
+}
+
+.buildingAndConstruction p {
+    padding-top: 115px;
+    font-weight: 550;
+    font-size: 0.75rem;
+    /* margin-left: 17px; */
+}
+
+.dollsAndHouses {
+    background-image: url(../img/dollsAndHouses.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+
+
+.dollsAndHouses p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.swimmingPool {
+    background-image: url(..//img/swimmingPool.jpg);
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.swimmingPool p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 2px;
+}
+
+.last2 {
+    color: #007185;
+    font-weight: 550;
+    margin-top: 52px;
+}
+
+.headphones {
+    background-image: url(..//img/Headphones.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+}
+
+.headphones p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.tablets {
+    background-image: url(..//img/tablets.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin: 0px 0px 0px 15px;
+}
+
+.tablets p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.gaming {
+    background-image: url(../img/gaming.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.gaming p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.speakers {
+    background-image: url(..//img/speakers.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin: 70px 0px 0px 15px;
+    
+}
+
+.speakers p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.last {
+    color: #007185;
+    font-weight: 550;
+    margin-top: 53px;
+}
+
+.clothing {
+    background-image: url(..//img/clothing.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+}
+
+.clothing p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.trackers {
+    background-image: url(..//img/trackers.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin: 0px 0px 0px 15px;
+}
+
+.trackers p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.equipment {
+    background-image: url(../img/equipment.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.equipment p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.deals2 {
+    background-image: url(..//img/deals.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin: 70px 0px 0px 15px;
+    
+}
+
+.deals2 p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+
+.women {
+    background-image: url(..//img/women.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+}
+
+.women p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.men {
+    background-image: url(..//img/men.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin: 0px 0px 0px 15px;
+}
+
+.men p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.girls {
+    background-image: url(../img/girls.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.girls p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.boys {
+    background-image: url(..//img/boys.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin: 70px 0px 0px 15px;
+    
+}
+
+.boys p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 17px;
+    color: #000;
+}
+
+
+
+
+.top2 {
+    background-color: #fdd04f;
+    height: 290px;
+    padding-top: 5px;
+    /* border: 2px solid #000; */
+}
+
+.topPicks2 {
+    background-color: #fff;
+    height: 290px;
+    width: 99.6%;
+   
+    margin-left: 3px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.topImages2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bag {
+    background-image: url(../img/bag.jpg);
+    height: 200px;
+    width: 205px;
+    background-size: cover;
+}
+
+.goggles {
+    background-image: url(../img/goggles.jpg);
+    height: 200px;
+    width: 145px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.supersoft {
+    background-image: url(../img/supersoft.jpg);
+    height: 200px;
+    width: 252px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.bottle {
+    background-image: url(../img/bottle.jpg);
+    height: 200px;
+    width: 67px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.stickyNotes {
+    background-image: url(../img/stickyNotes.jpg);
+    height: 200px;
+    width: 230px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.icepacks {
+    background-image: url(../img/icepacks.jpg);
+    height: 200px;
+    width: 180px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.towel {
+    background-image: url(../img/towel.jpg);
+    height: 200px;
+    width: 225px;
+    background-size: cover;
+    margin-left: 1px;
+}
+
+
+.top2 {
+    background-color: #fdd04f;
+    height: 290px;
+    padding-top: 5px;
+    
+}
+
+.topPicks2 {
+    background-color: #fff;
+    height: 290px;
+    width: 99.6%;
+    
+    border-radius: 2px;
+    margin-left: 3px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.topImages2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cleanTowels {
+    background-image: url(../img/cleanTowels.jpg);
+    height: 200px;
+    width: 190px;
+    background-size: cover;
+}
+
+.eos {
+    background-image: url(../img/eos.jpg);
+    height: 200px;
+    width: 95px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.makeupRemover {
+    background-image: url(../img/makeupRemover.jpg);
+    height: 200px;
+    width: 192px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.cottonSwabs {
+    background-image: url(../img/cottonSwabs.jpg);
+    height: 200px;
+    width: 100px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.cottonRounds {
+    background-image: url(../img/cottonRounds.jpg);
+    height: 200px;
+    width: 50px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.essenceLash {
+    background-image: url(../img/essenceLash.jpg);
+    height: 200px;
+    width: 110px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.biodance {
+    background-image: url(../img/biodance.jpg);
+    height: 200px;
+    width: 190px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.meyers {
+    background-image: url(../img/meyers.jpg);
+    height: 200px;
+    width: 130px;
+    background-size: cover;
+    margin-left: 1px;
+}
+
+
+
+.row1 {
+    display: flex;
+}
+
+.apparel {
+    background-image: url(../img/Apparels.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 1px;
+}
+
+.apparel p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+
+
+.row2 {
+    display: flex;
+}
+
+.hats {
+    background-image: url(../img/hats.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin-top: 1px;
+    margin-left: 15px;
+}
+
+.hats p {
+    padding-top: 115px;
+    font-weight: 550;
+    font-size: 0.75rem;
+    /* margin-left: 17px; */
+}
+
+.actionFigures {
+    background-image: url(../img/actionFigures.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+
+
+.actionFigures p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.mugs {
+    background-image: url(..//img/mugs.jpg);
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.mugs p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 2px;
+}
+
+.last2 {
+    color: #007185;
+    font-weight: 550;
+    margin-top: 52px;
+}
+
+.makeup {
+    background-image: url(..//img/makeup.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+}
+
+.makeup p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.brushes {
+    background-image: url(..//img/brushes.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin: 0px 0px 0px 15px;
+}
+
+.brushes p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.sponges {
+    background-image: url(../img/sponges.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.sponges p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.mirrors {
+    background-image: url(..//img/mirrors.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin: 70px 0px 0px 15px;
+    
+}
+
+.mirrors p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.last {
+    color: #007185;
+    font-weight: 550;
+    margin-top: 53px;
+}
+
+.laptops {
+    background-image: url(..//img/laptops.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+}
+
+.laptops p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.pcs {
+    background-image: url(..//img/pcs.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin: 0px 0px 0px 15px;
+}
+
+.pcs p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.harddrives {
+    background-image: url(../img/harddrive.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.harddrives p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.monitors {
+    background-image: url(..//img/monitor.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin: 70px 0px 0px 15px;
+    
+}
+
+.monitors p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+
+.backpacks {
+    background-image: url(..//img/backpacks.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+}
+
+.backpacks p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.suitcases {
+    background-image: url(..//img/suitcases.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin: 0px 0px 0px 15px;
+}
+
+.suitcases p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 17px;
+}
+
+.accessories {
+    background-image: url(../img/accessories.jpg);
+    height: 110px;
+    width: 167px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.accessories p {
+    padding-top: 115px;
+    font-weight: 550;
+}
+
+.handbags {
+    background-image: url(..//img/handbags.jpg) ;
+    height: 110px;
+    width: 165px;
+    background-size: cover;
+    margin: 70px 0px 0px 15px;
+    
+}
+
+.handbags p {
+    padding-top: 115px;
+    font-weight: 550;
+    margin-left: 17px;
+    color: #000;
+}
+
+
+
+.top2 {
+    background-color: #fdd04f;
+    height: 290px;
+    padding-top: 5px;
+    
+}
+
+.topPicks2 {
+    background-color: #fff;
+    height: 290px;
+    width: 99.6%;
+    
+    border-radius: 2px;
+    margin-left: 3px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.topImages2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bed {
+    background-image: url(../img/bed.jpg);
+    height: 220px;
+    width: 220px;
+    background-size: cover;
+}
+
+.bed2 {
+    background-image: url(../img/bed2.jpg);
+    height: 220px;
+    width: 175px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.zevo {
+    background-image: url(../img/zevo.jpg);
+    height: 220px;
+    width: 217px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.bottle3 {
+    background-image: url(../img/bottle3.jpg);
+    height: 220px;
+    width: 100px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.bottle2 {
+    background-image: url(../img/bottle2.jpg);
+    height: 220px;
+    width: 63px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.painting {
+    background-image: url(../img/painting.jpg);
+    height: 220px;
+    width: 180px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.mat2 {
+    background-image: url(../img/mat2.jpg);
+    height: 220px;
+    width: 200px;
+    background-size: cover;
+    margin-left: 1px;
+}
+.pillow {
+    background-image: url(../img/pillow.jpg);
+    height: 220px;
+    width: 220px;
+    background-size: cover;
+    margin-left: 1px;
+}
+
+
+.top2 {
+    background-color: #fdd04f;
+    height: 290px;
+    padding-top: 5px;
+}
+
+.topPicks {
+    background-color: #fff;
+    height: 290px;
+    width: 99.6%;
+    border-radius: 2px;
+    margin-left: 3px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.topImages2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.letThem {
+    background-image: url(../img/letThem.jpg);
+    height: 225px;
+    width: 150px;
+    background-size: cover;
+}
+
+.places {
+    background-image: url(../img/thePlaces.jpg);
+    height: 225px;
+    width: 165px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.sunrise {
+    background-image: url(../img/sunrise.jpg);
+    height: 225px;
+    width: 150px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.mom {
+    background-image: url(../img/mom.jpg);
+    height: 225px;
+    width: 150px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.originalSin {
+    background-image: url(../img/originalSin.jpg);
+    height: 225px;
+    width: 150px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.apothecary {
+    background-image: url(../img/apothecary.jpg);
+    height: 225px;
+    width: 175px;
+    background-size: cover;
+    margin-left: 15px;
+}
+.emperor{
+    background-image: url(../img/emperor.jpg);
+    height: 225px;
+    width: 150px;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.tenant {
+    background-image: url(../img/tenant.jpg);
+    height: 225px;
+    width: 135px;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.atomicHabits {
+    background-image: url(../img/atomicHabits.jpg);
+    height: 225px;
+    width: 150px;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+
+.personalized {
+    background-color: #fdd04f;
+    width: 100%;
+    height: 300px;
+    padding-top: 5px;
+}
+
+.recommendations {
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    /* margin-left: 3px; */
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+}
+
+.signup {
+    border-top: 1px solid hsl(0, 0%, 85%);
+    border-bottom: 1px solid hsl(0, 0%, 85%);
+    border-radius: 2px;
+    height: 200px;
+    width: 100%;
+    display: block;
+    padding-bottom: 150px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.reccs {
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.sign2{
+    border: none;
+    margin-bottom: 5px;
+    width: 230px;
+    height: 30px;
+    background-color: #fdd04f;
+    border-radius: 20px;
+}
+
+.sign2:hover {
+    background-color: hsl(44, 98%, 50%);
+}
+
+.newCustomer {
+    font-size: 0.75rem;
+}
+
+.newCustomer a {
+    text-decoration: none;
+}
+
+.newCustomer a:hover {
+    text-decoration: underline;
+}
+
+.backtotop {
+    background-color: #37465b;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e6e6e6;
+    font-size: 0.85rem;
+    font-weight: 400px;
+}
+
+.backtotop:hover {
+    background-color: hsl(215, 25%, 35%)
+}
+
+.final {
+    background-color: #222f3d;
+    height: 400px;
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column1 p {
+    margin-bottom: 5px;
+    font-weight: 400;
+    
+}
+
+
+.column1 a {
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 0.85rem;
+    line-height: 29px;
+}
+.column1 p {
+    margin-bottom: 5px;
+    font-weight: 400;
+    
+}
+
+
+.column1 a {
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 0.85rem;
+    line-height: 29px;
+}
+
+.column1 a:hover {
+    text-decoration: underline;
+}
+
+.column1 p {
+    margin-bottom: 5px;
+    font-weight: 400;
+    
+}
+
+
+.column1 a {
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 0.85rem;
+    line-height: 29px;
+}
+.column1 p {
+    margin-bottom: 5px;
+    font-weight: 400;
+    
+}
+
+
+.column1 a {
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 0.85rem;
+    line-height: 29px;
+}
+
+.finalfinal {
+    background-color: #222f3d;
+    border-top: 1px solid hsl(0, 0%, 32%);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finalLogo {
+    background-image: url(..//img/amazon_logo.png);
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+}
